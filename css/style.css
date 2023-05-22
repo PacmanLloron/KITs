@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://i.imgur.com/qNTHCdD.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(25, 0, 247);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    font-size: 40px;
+}

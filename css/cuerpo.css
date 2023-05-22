@@ -1,0 +1,62 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Lato','Verdana';
+}
+
+.grandote{
+    display: flex;
+    margin: 10px;
+}
+
+.caja{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+    margin: 0.9rem; 
+    padding: 0.78rem;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.tarjeta{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+    margin: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contendor_cajas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 80px;
+}
+
+.caja_madre{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+    margin: 10px;
+    padding-bottom: 30px;
+    display: inline;
+    padding: 10px;
+    height: min-content;
+}
+
+.caja_madre img{
+    border-radius: 5px;
+    width: 8rem;
+    height: 8rem;
+    padding: 40px;
+    pointer-events: none;
+}
+
+/* .btn{
+
+} */

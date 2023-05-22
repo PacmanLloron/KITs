@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/cuerpo.css">
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <div class="grandote">
+        <div class="caja">
+
+            <div class="tarjeta" id="cabeza" draggable="true" ondragstart="dragStart(event)">
+                <h4>Cabeza</h4>
+            </div>
+            <div class="tarjeta" id="boca" draggable="true" ondragstart="dragStart(event)">
+                <h4>Boca</h4>
+            </div>
+            <div class="tarjeta" id="ojos" draggable="true" ondragstart="dragStart(event)">
+                <h4>Ojos</h4>
+            </div>
+            <div class="tarjeta" id="nariz" draggable="true" ondragstart="dragStart(event)">
+                <h4>Nariz</h4>
+            </div>
+            <div class="tarjeta" id="brazos" draggable="true" ondragstart="dragStart(event)">
+                <h4>Brazos</h4>
+            </div>
+            <div class="tarjeta" id="pies" draggable="true" ondragstart="dragStart(event)">
+                <h4>Pies</h4>
+            </div>
+            <div class="tarjeta" id="manos" draggable="true" ondragstart="dragStart(event)">
+                <h4>Manos</h4>
+            </div>
+            <div class="tarjeta" id="lengua" draggable="true" ondragstart="dragStart(event)">
+                <h4>Lengua</h4>
+            </div>  
+        </div>
+        <div class="contendor_cajas">
+            <div class="caja_madre" data-tarjeta-id="cabeza" ondragover="allowDrop(event)" ondrop="drop(event)">
+                
+                <img src="https://i.imgur.com/UxHGpUg.png">
+              
+            </div>
+            <div class="caja_madre" data-tarjeta-id="boca" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img src="https://i.imgur.com/xhNFAES.png">
+            </div>
+            <div class="caja_madre" data-tarjeta-id="ojos" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img src="https://i.imgur.com/0oSZGAB.png">
+            </div>
+            <div class="caja_madre" data-tarjeta-id="nariz" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img src="https://i.imgur.com/4KNCqdw.png">
+            </div>
+            <div class="caja_madre" data-tarjeta-id="brazos" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img src="https://i.imgur.com/lFjK6Nk.png">
+            </div>
+            <div class="caja_madre" data-tarjeta-id="pies" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img src="https://i.imgur.com/5iW1MGs.png">
+            </div>
+            <div class="caja_madre" data-tarjeta-id="manos" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img src="https://i.imgur.com/iCmWyic.png">
+            </div>
+            <div class="caja_madre" data-tarjeta-id="lengua" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img src="https://i.imgur.com/oNPWysJ.png">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
