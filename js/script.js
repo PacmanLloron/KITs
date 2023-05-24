@@ -26,7 +26,7 @@ function drop(event) {
     }
     else if (palabraId != palabraCaja){
       
-      alert("!Ey¡, Revisa tu Respuesta")
+      alert("¡Ey!, Revisa tu Respuesta")
       return;
 
     }
